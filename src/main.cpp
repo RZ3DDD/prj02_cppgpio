@@ -31,7 +31,7 @@ esp_err_t Main::setup(void)
 {
     esp_err_t status{ESP_OK};
     // vTaskDelay(7000 / portTICK_PERIOD_MS);
-    ESP_LOGI(LOG_TAG, "Setup!");
+    ESP_LOGD(LOG_TAG, "Setup!");
     return status;
 }
 
